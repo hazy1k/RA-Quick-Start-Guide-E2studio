@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="将资源“7_DAC/src/dac,c”重命名为“dac.c”" description="重命名资源“dac,c”" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/dac,c" name="dac.c" stamp="1758940104557" updateReferences="true"/>
+</session>

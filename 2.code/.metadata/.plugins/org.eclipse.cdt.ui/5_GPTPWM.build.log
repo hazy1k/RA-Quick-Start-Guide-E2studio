@@ -1,0 +1,12 @@
+13:15:07 **** 项目5_GPTPWM配置Debug的增量构建 ****
+make -r -j20 all 
+Building file: ../src/hal_entry.c
+Building file: ../src/user.c
+Building target: 5_GPTPWM.elf
+arm-none-eabi-objcopy -O srec "5_GPTPWM.elf"  "5_GPTPWM.srec"
+arm-none-eabi-size --format=berkeley "5_GPTPWM.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3616	      0	   1204	   4820	   12d4	5_GPTPWM.elf
+
+13:15:08 Build Finished. 0 errors, 0 warnings. (took 339ms)
+

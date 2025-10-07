@@ -1,0 +1,8 @@
+13:16:35 **** 项目2_CGC配置Debug的增量构建 ****
+make -r -j20 all 
+arm-none-eabi-size --format=berkeley "2_CGC.elf"
+   text	   data	    bss	    dec	    hex	filename
+   2200	      0	   1168	   3368	    d28	2_CGC.elf
+
+13:16:35 Build Finished. 0 errors, 0 warnings. (took 79ms)
+

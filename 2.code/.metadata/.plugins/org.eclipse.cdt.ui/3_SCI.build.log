@@ -1,0 +1,8 @@
+13:18:07 **** 项目3_SCI配置Debug的增量构建 ****
+make -r -j20 all 
+arm-none-eabi-size --format=berkeley "3_SCI.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6516	    100	   5696	  12312	   3018	3_SCI.elf
+
+13:18:07 Build Finished. 0 errors, 0 warnings. (took 80ms)
+

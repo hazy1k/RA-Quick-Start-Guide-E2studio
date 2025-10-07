@@ -1,0 +1,11 @@
+10:46:57 **** 项目7_DAC配置Debug的增量构建 ****
+make -r -j20 all 
+Building file: ../src/user.c
+Building target: 7_DAC.elf
+arm-none-eabi-objcopy -O srec "7_DAC.elf"  "7_DAC.srec"
+arm-none-eabi-size --format=berkeley "7_DAC.elf"
+   text	   data	    bss	    dec	    hex	filename
+   4068	      0	   1184	   5252	   1484	7_DAC.elf
+
+10:46:58 Build Finished. 0 errors, 0 warnings. (took 288ms)
+

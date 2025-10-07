@@ -1,0 +1,9 @@
+Extracting support files...
+11:18:23 **** 项目10_RTC配置Debug的增量构建 ****
+make -r -j20 all 
+Building file: ../src/user.c
+Building target: 10_RTC.elf
+arm-none-eabi-objcopy -O srec "10_RTC.elf"  "10_RTC.srec"
+arm-none-eabi-size --format=berkeley "10_RTC.elf"
+   text	   data	    bss	    dec	    hex	filename
+   4844	     36	   1304	   6184	   1828	10_RTC.elf

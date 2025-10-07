@@ -1,0 +1,8 @@
+11:06:02 **** 项目9_QSPI配置Debug的增量构建 ****
+make -r -j20 all 
+arm-none-eabi-size --format=berkeley "9_QSPI.elf"
+   text	   data	    bss	    dec	    hex	filename
+   4420	     80	   1688	   6188	   182c	9_QSPI.elf
+
+11:06:02 Build Finished. 0 errors, 0 warnings. (took 87ms)
+

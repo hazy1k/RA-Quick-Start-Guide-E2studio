@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="将资源“1_GPIO/src/BSP/gpio.c”重命名为“led.c”" description="重命名资源“gpio.c”" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/BSP/gpio.c" name="led.c" stamp="1758510775022" updateReferences="true"/>&#x0A;<refactoring comment="将资源“1_GPIO/src/BSP/gpio.h”重命名为“led.h”" description="重命名资源“gpio.h”" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/BSP/gpio.h" name="led.h" stamp="1758510779923" updateReferences="true"/>
+</session>

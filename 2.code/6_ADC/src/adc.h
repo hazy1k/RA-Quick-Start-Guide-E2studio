@@ -1,0 +1,20 @@
+/*
+ * adc.h
+ *
+ *  Created on: 2025年9月25日
+ *      Author: qiu
+ */
+
+#ifndef ADC_H_
+#define ADC_H_
+
+#include "hal_data.h"
+#include "stdio.h"
+#include <unistd.h>
+#include <errno.h>
+#include <stdint.h>
+
+void adc_init(void);
+double adc_read_value(void);
+
+#endif /* ADC_H_ */

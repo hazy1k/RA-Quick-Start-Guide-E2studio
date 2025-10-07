@@ -1,0 +1,20 @@
+/*
+ * qspi.h
+ *
+ *  Created on: 2025年9月27日
+ *      Author: qiu
+ */
+
+#ifndef QSPI_H_
+#define QSPI_H_
+
+#include "hal_data.h"
+
+#define QSPI_START_ADDR  0x60000000
+
+void W25Q_Init(void);
+uint32_t Flash_ReadID(void);
+int W25Q_Read(uint32_t addr, uint8_t *buf, uint32_t Size);
+int W25Q_Write(uint32_t addr, uint8_t *data, uint32_t Size);
+
+#endif /* QSPI_H_ */

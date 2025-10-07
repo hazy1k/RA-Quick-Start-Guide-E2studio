@@ -1,0 +1,12 @@
+18:50:06 **** 项目6_ADC配置Debug的增量构建 ****
+make -r -j20 all 
+Building file: ../src/adc.c
+Building file: ../src/user.c
+Building target: 6_ADC.elf
+arm-none-eabi-objcopy -O srec "6_ADC.elf"  "6_ADC.srec"
+arm-none-eabi-size --format=berkeley "6_ADC.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3668	      0	   1212	   4880	   1310	6_ADC.elf
+
+18:50:07 Build Finished. 0 errors, 0 warnings. (took 284ms)
+

@@ -1,0 +1,8 @@
+10:49:32 **** 项目8_I2C配置Debug的增量构建 ****
+make -r -j20 all 
+arm-none-eabi-size --format=berkeley "8_I2C.elf"
+   text	   data	    bss	    dec	    hex	filename
+   5012	      0	   1248	   6260	   1874	8_I2C.elf
+
+10:49:32 Build Finished. 0 errors, 0 warnings. (took 81ms)
+

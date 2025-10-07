@@ -1,0 +1,14 @@
+/*
+ * user.h
+ *
+ *  Created on: 2025年9月27日
+ *      Author: qiu
+ */
+
+#ifndef USER_H_
+#define USER_H_
+
+#include "hal_data.h"
+
+
+#endif /* USER_H_ */

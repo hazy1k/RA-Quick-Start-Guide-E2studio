@@ -1,0 +1,20 @@
+/*
+ * user.c
+ *
+ *  Created on: 2025年9月25日
+ *      Author: qiu
+ */
+#include "user.h"
+#include "adc.h"
+
+void bsp_run(void)
+{
+    adc_init();
+    while(1)
+    {
+        //printf("ADC = %f\r\n", adc_read_value());
+        R_BSP_SoftwareDelay(1,BSP_DELAY_UNITS_SECONDS);
+    }
+}
+
+

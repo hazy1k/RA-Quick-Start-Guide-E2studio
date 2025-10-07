@@ -1,0 +1,12 @@
+20:34:11 **** 项目4_AGTPWM配置Debug的增量构建 ****
+make -r -j20 all 
+Building file: ../src/hal_entry.c
+Building file: ../src/user.c
+Building target: 4_AGTPWM.elf
+arm-none-eabi-objcopy -O srec "4_AGTPWM.elf"  "4_AGTPWM.srec"
+arm-none-eabi-size --format=berkeley "4_AGTPWM.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3500	      0	   1212	   4712	   1268	4_AGTPWM.elf
+
+20:34:12 Build Finished. 0 errors, 0 warnings. (took 355ms)
+

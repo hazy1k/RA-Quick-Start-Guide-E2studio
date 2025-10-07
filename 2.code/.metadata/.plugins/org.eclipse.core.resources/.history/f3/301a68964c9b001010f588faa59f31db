@@ -1,0 +1,21 @@
+/*
+ * user.c
+ *
+ *  Created on: 2025年9月27日
+ *      Author: qiu
+ */
+#include "i2c.h"
+#include "user.h"
+
+void bsp_run(void)
+{
+    uint32_t value;
+    bh1750_init();
+    while(1)
+    {
+        uint32_t value =  bh1750_read();
+        //printf ("光照强度=%ld\r\n",value);
+        R_BSP_SoftwareDelay (1, BSP_DELAY_UNITS_SECONDS);
+    }
+}
+
